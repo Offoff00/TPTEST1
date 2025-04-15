@@ -1,0 +1,30 @@
+sudo apt update && apt upgrade
+sudo apt install git
+git --version
+
+cd document
+mkdir TP-TEST
+cd TP-TEST
+
+git init
+
+git remote add origin https://github.com/Offoff00/TPTEST1
+
+nano index.html
+
+git add index.html
+
+git config user.email "elyasmazouz6@gmail.com"
+git config user.name "Offoff00"
+
+git commit -m "index.html"
+
+git branch mazouz
+git checkout mazouz
+
+
+
+
+
+
+
